@@ -1,0 +1,10 @@
+#map {
+    position: fixed;
+    border-radius: 0px;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+    left: 25%;
+}

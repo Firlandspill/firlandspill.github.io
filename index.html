@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Firlandspill</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- 
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="styles.css">
+
+   
+  <!-- Favicon–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/x-icon" href="bilder/firlandspill favicon.ico">
+</head>
+<body>
+<div id="UI">
+<div id="control-bar"></div>
+<a href="index.html">
+    <img id="logo" src="bilder/firlandspill logo.png" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="" />
+</a>
+<a href=""><button id="other-sites">Denne knappen er work in progress</button></a>
+
+<div id="firlandspillKode" class="floating"><img src="bilder/firlandspillKode.png"  class="floating" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)"><button class="floating-button" onclick="hideElement('firlandspillKode')">Skjul Kode</button></div>
+
+<div id="fruitmergeKode" class="floating"><img src="bilder/fruitmergeKode.png"  class="floating" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)"><button class="floating-button" onclick="hideElement('fruitmergeKode')">Skjul Kode</button></div>
+
+<div id="pessivspenaldoKode" class="floating"><img src="bilder/pessivspenaldoKode.png"  class="floating" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)"><button class="floating-button" onclick="hideElement('pessivspenaldoKode')">Skjul Kode</button></div>
+
+
+</div>
+<div id="wrapper">
+<div class="bg-area u-full-height">
+    <img class="bg-image" src="bilder/Flag Wipers thumb copy.png" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+</div>
+
+<h1>Firlandspill</h1>
+<p class="sub">Av Ding, Jonas, Jan Erik, og Bjørn Terkel</p>
+
+<div id="box">
+<h2>Flag Wipers</h2>
+
+<p>Dette er det største spillet vi har laget. Dette er et skytespill der målet er å ta flaget fra det andre laget. Man spiller multiplayer mot andre over hele jorda, med morsomme våpen i en stor verden.</p>
+
+<img class="space" class="center" src="bilder\Flag Wipers code.png" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+
+<small><br>Kodet i Roblox Studio med Lua (Crouch script)</small>
+<p>Å kode dette har vært vanskelig. Vi har brukt mye tid til å forske på hvordan kodespråket funker, og hvordan vi kan legge til forskjellige lag og våpen. Skolepcene våres har vært et stort hinder takket være at den lagger så mye.</p>
+<a href="https://www.roblox.com/games/16024235041" target="_blank"><button class="game-button">Spill Spillet</button></a>
+</div>
+
+<h3 class="center">- Andre Prosjekter -</h3>
+
+<div class="grid-container">    
+    <img src="bilder/firlandspill favicon.ico" class="img-item" id="item1" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+    <div id="item2" class="box-item"><h2 class="gridtext">Firlandspill</h2><p class="gridtext">Dette er oss! Vi lager massevis av prosjekter med mye innovasjon, og hovedmålet vårt er å ha en verden med bedre mental helse. Vi har lagd over 10 spill, men ikke alle er ferdige, og noen er rent søppel. Denne nettsiden er en del av gruppa vår, og den er kodet i Html, css, og javascript. Jeg fikk lagd mye fordi det ikke lagger på skolepcen å kode i vscode. For å få nettsiden på internett brukte vi github fordi det er gratis.<br>Koden har samlet 310 linjer.</p><button onclick="showElement('firlandspillKode')" class="show-button">Vis Kode</button></a></div>
+
+    <img src="bilder\Fruit merge thumb.png" class="img-item" id="item3" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+    <div id="item4" class="box-item"><h2 class="gridtext">Fruit Merge</h2><p class="gridtext">Kast smakfulle frukter ned på bakken og se på de kombinere seg sammen! Men pass på at fruktene ikke faller utenfor skålen.. Dette spillet er laget helt i python med Pygame og Pymunk. Det var veldig vanskelig å kode dette, ettersom det var helt i Python som er fullstendig tekst-basert. Det vanskeligste å kode var fysikken til å få fruktene til å kombinere seg.<br>Koden har samlet 432 linjer.</p><button onclick="showElement('fruitmergeKode')" class="show-button">Vis Kode</button></div>
+
+    <img src="bilder\pessi thumb.png" class="img-item" id="item6" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+    <div id="item5" class="box-item"><h2 class="gridtext">Pessi VS Penaldo</h2><p class="gridtext">Den beste idretten i verden har kommet til videospill. Med de to beste goatsa i verden, samlet for å kjempe mot den fantastiske VM-trofeén. Hvis du er dårlig på fotball men liker det fortsatt, spill Pessi VS Penaldo og ha det gøy med venner! Fantastisk spill laget av Zhe Ding. Kodeprogram scratch.<br> Koden har cirka 600 blokker.</p><button onclick="showElement('pessivspenaldoKode')" class="show-button">Vis Kode</button></div>
+
+    <img src="bilder/9avisa.png" class="img-item" id="item7" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+    <div id="item8" class="box-item"><h2 class="gridtext">9Avisa</h2><p class="gridtext">Utrolig saftige artikler med episk sladring.. Denne avisa er den mest spennende på hele Borre Ungdomsskole! <br>Jeg fikk lagd 4 artikler før jeg begynte på andre prosjekter.. Men det var uansett min første nettside, som jeg valgte å lage midt i timen bare for gøy. Og se på meg nå, nå har jeg lagd en liste med nettsidene mine!</p><a href="Andre sider/9Avisa/index.html"><button class="show-button">Gå til siden</button></a></div>
+
+    <img src="bilder/baerekraft.png" class="img-item" id="item9" oncontextmenu="disableRightClick(event)" ondragstart="disableImageDrag(event)" alt="">
+    <div id="item10" class="box-item"><h2 class="gridtext">Bærekraft Spill</h2><p class="gridtext">Har du det som trengs for å vise at du kan redde jorda? Klikk på det som du tenker hadde vært best for jorda, og se klimaet på jorda bli bedre og bedre! <br>Dette er min første nettsidespill, så den er ganske basic. Det var egentlig for en norsk oppgave som jeg skulle fremføre for klassen, men det skjedde aldri.. (sikkert fordi jeg hadde Nell)</p><a href="Andre sider/Bærekraft info plakat/index.html"><button class="show-button">Gå til siden</button></a></div>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+  // Function to disable right-click menu
+  function disableRightClick(event) {
+      event.preventDefault(); // Prevent default right-click menu
+  }
+
+  // Function to disable image dragging
+  function disableImageDrag(event) {
+      event.preventDefault(); // Prevent default image drag behavior
+  }
+
+  // Function to hide element by ID
+  function hideElement(elementId) {
+      document.getElementById(elementId).style.display = "none";
+  }
+
+  // Function to show element by ID
+  function showElement(elementId) {
+      document.getElementById(elementId).style.display = "block";
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById('firlandspillKode').style.display = "none";
+      document.getElementById('fruitmergeKode').style.display = "none";
+      document.getElementById('pessivspenaldoKode').style.display = "none";
+  });
+</script>
+
+
+</body>
+</html>

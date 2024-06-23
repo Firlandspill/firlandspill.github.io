@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>9Avisa</title>
+</head>
+<body>
+    <a href="index.html"><button>Tilbake</button></a>
+    <h1>Artikkel<small><br>Laget av:</small></h1>
+</body>
+</html>
+
+Artikler:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../../styles.css"/>
+    <title>9Avisa</title>
+</head>
+<body>
+    <a href="../../index.html"><button>Tilbake</button></a>
+    <h1>Artikkel<small><br>Laget av:</small></h1>
+    <img src="../../Bilder/avlyst.webp" class="small center rounded" alt="noe">
+</body>
+</html>
+
+temp:
+    <div class="grid">
+        <a href="Artikler\buss sent 09.02.2024\buss sent 09.02.2024.html">
+            div class="artikkel"
+                <img src="Bilder/buss krasjet.avif" alt="buss krasjet" width="300vw" height="200vw">
+                Skolebussen kommer sent IGJEN!!
+            div
+            </a>
+            <a href="Artikler\mia spåer 09.02.2024\Artikkel.html">
+                div class="artikkel"
+                    <img src="Bilder/kansellert.avif" alt="buss krasjet" width="400px" height="300px">
+                    Ødeleggelse nyheter! Mia ble avlyst!
+                div
+            </a>
+    </div>
