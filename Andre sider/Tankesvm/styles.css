@@ -1,0 +1,134 @@
+:root {
+    --white: #f4f4f4;
+    --bg: #000000;
+    --maincolor: #f4f4f4;
+} 
+
+body {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+* {
+    /*Remove scrollbars*/
+    overflow: hidden;
+    scrollbar-width: none;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+
+    color: var(--maincolor);
+    background-color: var(--bg);
+
+    margin: 0;
+    padding: 0;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+p.i {
+    margin: 1rem;
+}
+
+input {
+    float: right;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+    margin: 0 1rem 0 0;
+}
+
+label {
+    float: left;
+    font-size: 1rem;
+    margin: 0 0 0 1rem;
+}
+
+button {
+    font-size: 1.5rem;
+    position: absolute;
+    outline: solid 1px white;
+    border: none;
+    padding: 0.5rem;
+    bottom: 10vh;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #242424;
+}
+
+#main_menu {
+    display: block;
+}
+
+#selection_area {
+    display: none;
+}
+
+#intermission {
+    display: none;
+}
+
+#stop_area {
+    display: none;
+}
+
+#end_menu {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.timer {
+    font-variant-numeric: tabular-nums;
+}
+
+#countdown {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
